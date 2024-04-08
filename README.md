@@ -2,6 +2,7 @@
 
 This is a backtester based originally on the 2023 backtester built by n-0 (https://github.com/n-0/backtest-imc-prosperity-2023/)
 It's reasonably heavily modified to work with the 2024 format and the stock jmerle logger (no modifications required).
+A slightly modified datamodel is included, but all traders that compile with it should be fully compatible with the required format.
 
 I've also included my own concatenation tool for joining multiple days data into a single dataset, such as can be found in the 2023 training data sets.
 
