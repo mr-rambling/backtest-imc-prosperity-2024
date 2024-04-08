@@ -94,8 +94,6 @@ logger = Logger()
 # Better to loose nothing, then dreaming of a gain.
 class Trader:
 
-    logger = Logger(local=True)
-
     def run(self, state: TradingState):
         """
         Only method required. It takes all buy and sell orders for all symbols as an input,
@@ -103,5 +101,5 @@ class Trader:
         """
         # Initialize the method output dict as an empty dict
         result = {}
-        self.logger.flush(state, result)
+        logger.flush(state, result)
         return result
